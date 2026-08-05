@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@layer utilities {
+  /* Light Mode Neumorphism */
+  .neu-flat-light {
+    background-color: #f7f9fc;
+    box-shadow: 6px 6px 16px #d1d9e6, -6px -6px 16px #ffffff;
+  }
+  
+  .neu-inset-light {
+    background-color: #f2f4f7;
+    box-shadow: inset 4px 4px 8px #d1d9e6, inset -4px -4px 8px #ffffff;
+  }
+
+  .neu-card-light {
+    background: linear-gradient(145deg, #ffffff, #f0f3f7);
+    box-shadow: 8px 8px 20px #d4dbe5, -8px -8px 20px #ffffff;
+  }
+
+  /* Dark Mode Neumorphism */
+  .neu-flat-dark {
+    background-color: #1a2228;
+    box-shadow: 6px 6px 16px #10161a, -6px -6px 16px #242e36;
+  }
+
+  .neu-inset-dark {
+    background-color: #141b20;
+    box-shadow: inset 4px 4px 8px #0f1418, inset -4px -4px 8px #222d36;
+  }
+
+  .neu-card-dark {
+    background: linear-gradient(145deg, #202b32, #182126);
+    box-shadow: 8px 8px 22px #0f1519, -8px -8px 22px #27343d;
+  }
+}
+
+/* Base Body Styles */
+body {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Smooth Transitions for Theme Swaps */
+* {
+  transition-property: color, background-color, border-color, box-shadow;
+  transition-duration: 200ms;
+  transition-timing-function: ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.3);
+  border-radius: 9999px;
+}

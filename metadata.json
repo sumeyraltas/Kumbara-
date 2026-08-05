@@ -1,0 +1,6 @@
+{
+  "name": "Kumbara",
+  "description": "Kişisel birikim ve tasarruf hedeflerinizi yönetebileceğiniz Neumorfik tasarımlı finans uygulaması.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
