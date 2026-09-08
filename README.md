@@ -18,8 +18,7 @@
   <strong>Günlük mikro tasarruflarınızı eğlenceli, dokunsal ve görsel bir deneyimle birikime dönüştürün.</strong>
 </p>
 
-[Özellikler](#-öne-çıkan-özellikler) • [Teknoloji Yığını](#-teknoloji-yığını) • [Proje Mimarisi](#-proje-mimarisi-ve-dizin-yapısı) • [Kurulum Rehberi](#-kurulum-ve-çalıştırma) • [Kullanım](#-kullanım-rehberi) • [Katkıda Bulunma](#-katkıda-bulunma) • [Lisans](#-lisans)
-
+[Özellikler](#-öne-çıkan-özellikler) • [Teknoloji Yığını](#-teknoloji-yığını) • [Proje Mimarisi](#-proje-mimarisi-ve-dizin-yapısı) • [Kurulum Rehberi](#-kurulum-ve-çalıştırma) • [Kullanım](#-kullanım-rehberi) • [Katkıda Bulunma](#-katkıda-bulunma) 
 </div>
 
 ---
