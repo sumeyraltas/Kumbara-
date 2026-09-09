@@ -131,7 +131,7 @@ Projeyi yerel ortamınızda çalıştırmak için aşağıdaki adımları sıras
 
 ### 1. Depoyu Klonlayın
 ```bash
-git clone https://github.com/kullanici-adiniz/kumbara.git
+git clone <repo link>
 cd kumbara
 ```
 
